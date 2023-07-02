@@ -6,7 +6,7 @@
 /*   By: albaud <albaud@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/02 12:12:31 by albaud            #+#    #+#             */
-/*   Updated: 2023/07/02 21:45:42 by albaud           ###   ########.fr       */
+/*   Updated: 2023/07/02 21:49:04 by albaud           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,6 @@ int	main(int argc, char **argv)
 		return (0);
 	}
 	r = ft_split(argv[1], ' ');
-	printf("mmais\n");
 	if (r == 0)
 		return (0);
 	if (r[0] == 0)
